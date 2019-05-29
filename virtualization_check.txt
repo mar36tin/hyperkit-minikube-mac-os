@@ -1,0 +1,5 @@
+To check if virtualization is supported on macOS, run the following command on your terminal.
+
+sysctl -a | grep machdep.cpu.features
+
+If you see VMX in the output, the VT-x feature is supported on your OS.
