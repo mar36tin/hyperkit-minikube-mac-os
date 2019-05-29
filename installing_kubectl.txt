@@ -15,6 +15,14 @@ chmod +x ./kubectl
 
 sudo mv ./kubectl /usr/local/bin/kubectl
 
+OR
+
+Using Home brew
+
+Run the installation command:
+
+brew install kubernetes-cli
+
 4. Test to ensure the version you installed is up-to-date:
 
 kubectl version
